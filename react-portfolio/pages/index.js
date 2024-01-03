@@ -63,7 +63,7 @@ export default function Home() {
 							Since the beginning of my journey as a certified public accountant, researcher and programmer I've enjoyed building things - whether that be tax workpapers, healthcare data points or <span className='text-teal-500'> fullstack software </span>. Throughout my professional career, I have
 							collaborated with talented people to create digital products for both business and consumer use across a multitude of industries.
 						</p>
-						<p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>I offer from a wide range of services, including workpaper design, documentation brainstorming and being an intermediary between the finance and tech world.</p>
+						<p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>I offer from a wide range of services, including work paper design, documentation brainstorming and being an intermediary between the finance and tech world.</p>
 					</div>
 					<div className='lg:flex gap-10'>
 						<div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
@@ -86,7 +86,7 @@ export default function Home() {
 						<div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
 							<Image src={consulting} width={100} height={100} />
 							<h3 className='text-lg font-medium pt-8 pb-2 '>Consulting</h3>
-							<p className='py-2'>Are you interested in feedback for your current project workpapers? I can give you tips and tricks to level it up.</p>
+							<p className='py-2'>Are you interested in feedback for your current project work papers or workflow? I can give you tips and tricks to level it up.</p>
 							<h4 className='py-4 text-teal-600'>Financial Tools I Use</h4>
 							<p className='text-gray-800 py-1'>Excel</p>
 							<p className='text-gray-800 py-1'>Alteryx</p>
