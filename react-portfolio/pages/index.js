@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { useState } from 'react';
 import deved from '../public/dev-ed-wave.png';
@@ -44,7 +44,12 @@ export default function Home() {
 						<h3 className='text-2xl py-2 dark:text-white md:text-3xl'>Developer, Accountant, Dad.</h3>
 						<p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'>Freelancer providing services for programming and financial needs. I would love to hear more about your projects and how I could help!</p>
 						<div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-							<AiFillLinkedin />
+							<a href='https://www.linkedin.com/in/jmezz/'>
+								<AiFillLinkedin />
+							</a>
+							<a href='https://github.com/Jmz0127'>
+								<AiFillGithub />
+							</a>
 						</div>
 						<div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96'>
 							<Image src={deved} layout='fill' objectFit='cover' />
