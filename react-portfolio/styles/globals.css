@@ -19,8 +19,13 @@ a {
 	box-sizing: border-box;
 }
 
-/* add custom font here */
+/* add custom font here - each font has its own font-fact wrapper. make sure you add any new ones to tailwind.config file! */
 @font-face {
 	font-family: 'burtons';
 	src: url('../public/Burtons.otf');
+}
+
+@font-face {
+	font-family: 'jungleeast';
+	src: url('../public/Jungleeast.otf');
 }
