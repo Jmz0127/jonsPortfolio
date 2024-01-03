@@ -33,7 +33,7 @@ export default function Home() {
 								<BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=' cursor-pointer text-2xl' />
 							</li>
 							<li>
-								<a className='bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='#'>
+								<a className='bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://docs.google.com/document/d/1yceZ7pcwbghY78btheluJvYGeof_oIMEfwAjLZoS-qI/edit?usp=sharing'>
 									Resume
 								</a>
 							</li>
@@ -60,10 +60,8 @@ export default function Home() {
 					<div>
 						<h3 className='text-3xl py-1 dark:text-white '>Services I offer</h3>
 						<p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-							Since the beginning of my journey as a certified public accountant, researcher and programmer I've enjoyed helping people convert raw data to insights.
-							<span className='text-teal-500'> agencies </span>
-							consulted for <span className='text-teal-500'>startups </span>
-							and collaborated with talented people to create digital products for both business and consumer use.
+							Since the beginning of my journey as a certified public accountant, researcher and programmer I've enjoyed building things - whether that be tax workpapers, healthcare data points or <span className='text-teal-500'> fullstack software </span>. Throughout my professional career, I have
+							collaborated with talented people to create digital products for both business and consumer use across a multitude of industries.
 						</p>
 						<p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>I offer from a wide range of services, including workpaper design, documentation brainstorming and being an intermediary between the finance and tech world.</p>
 					</div>
@@ -91,6 +89,7 @@ export default function Home() {
 							<p className='py-2'>Are you interested in feedback for your current project workpapers? I can give you tips and tricks to level it up.</p>
 							<h4 className='py-4 text-teal-600'>Financial Tools I Use</h4>
 							<p className='text-gray-800 py-1'>Excel</p>
+							<p className='text-gray-800 py-1'>Alteryx</p>
 							<p className='text-gray-800 py-1'>Python</p>
 						</div>
 					</div>
@@ -99,12 +98,9 @@ export default function Home() {
 					<div>
 						<h3 className='text-3xl py-1 dark:text-white '>Portofolio</h3>
 						<p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-							Since the beginning of my journey as a freelance designer and developer, I've done remote work for
-							<span className='text-teal-500'> agencies </span>
-							consulted for <span className='text-teal-500'>startups </span>
-							and collaborated with talanted people to create digital products for both business and consumer use.
+							Since the beginning of my journey as a freelance developer, I've built automations and digital products across <span className='text-teal-500'> multiple programming languages</span>.
 						</p>
-						<p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>I offer from a wide range of services, including brand design, programming and teaching.</p>
+						<p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>My main inspiration is helping people solve problems in their everyday life through the things I build.</p>
 					</div>
 					<div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
 						<div className='basis-1/3 flex-1 '>
