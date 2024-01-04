@@ -1,2 +1,2 @@
 # jonsPortfolio
-come and get to know me.
+My portfolio utilizing React and TailwindCSS. Click and get to know me!
